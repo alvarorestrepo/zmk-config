@@ -37,20 +37,20 @@
             &gpio1 0  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)  // F3: P1.00
         >;
 
-        // Pines de columnas (entradas)
+        // Pines de columnas (entradas) - INVERTIDOS
         col-gpios = <
-            &gpio0 29 GPIO_ACTIVE_HIGH  // C0: P0.29
-            &gpio0 2  GPIO_ACTIVE_HIGH  // C1: P0.02
-            &gpio1 15 GPIO_ACTIVE_HIGH  // C2: P1.15
-            &gpio1 11 GPIO_ACTIVE_HIGH  // C3: P1.11
-            &gpio1 9  GPIO_ACTIVE_HIGH  // C4: P1.09
-            &gpio0 21 GPIO_ACTIVE_HIGH  // C5: P0.21
-            &gpio0 22 GPIO_ACTIVE_HIGH  // C6: P0.22
-            &gpio0 23 GPIO_ACTIVE_HIGH  // C7: P0.23
-            &gpio0 25 GPIO_ACTIVE_HIGH  // C8: P0.25
-            &gpio0 26 GPIO_ACTIVE_HIGH  // C9: P0.26
-            &gpio0 27 GPIO_ACTIVE_HIGH  // C10: P0.27
-            &gpio0 28 GPIO_ACTIVE_HIGH  // C11: P0.28
+            &gpio0 28 GPIO_ACTIVE_HIGH  // C0: P0.28 (antes C11)
+            &gpio0 27 GPIO_ACTIVE_HIGH  // C1: P0.27 (antes C10)
+            &gpio0 26 GPIO_ACTIVE_HIGH  // C2: P0.26 (antes C9)
+            &gpio0 25 GPIO_ACTIVE_HIGH  // C3: P0.25 (antes C8)
+            &gpio0 23 GPIO_ACTIVE_HIGH  // C4: P0.23 (antes C7)
+            &gpio0 22 GPIO_ACTIVE_HIGH  // C5: P0.22 (antes C6)
+            &gpio0 21 GPIO_ACTIVE_HIGH  // C6: P0.21 (antes C5)
+            &gpio1 9  GPIO_ACTIVE_HIGH  // C7: P1.09 (antes C4)
+            &gpio1 11 GPIO_ACTIVE_HIGH  // C8: P1.11 (antes C3)
+            &gpio1 15 GPIO_ACTIVE_HIGH  // C9: P1.15 (antes C2)
+            &gpio0 2  GPIO_ACTIVE_HIGH  // C10: P0.02 (antes C1)
+            &gpio0 29 GPIO_ACTIVE_HIGH  // C11: P0.29 (antes C0)
         >;
     };
 
