@@ -1,0 +1,4 @@
+# No whitespace after the comma or in your keyboard name!
+# El shield para el teclado Blank Slate
+config SHIELD_BLANK_SLATE
+    def_bool $(shields_list_contains,blank-slate)
