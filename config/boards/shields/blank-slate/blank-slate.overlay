@@ -128,7 +128,7 @@
             reg = <0x000ec000 0x00008000>;
         };
 
-        boot_partition: partition@f4000 {
+        adafruit_boot_partition: partition@f4000 {
             label = "adafruit_boot";
             reg = <0x000f4000 0x0000c000>;
         };
