@@ -20,4 +20,4 @@
 ---
 include:
   - board: nrf52840dk_nrf52840
-    shield: reviung41
+    shield: blank-slate
