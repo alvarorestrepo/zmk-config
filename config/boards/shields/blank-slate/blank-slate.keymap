@@ -17,10 +17,11 @@
 
 // Layer definitions (starting from 0)
 #define BASE_L 0
-#define NAV_L 1
-#define NUM_L 2
-#define SYM_L 3
-#define ARROW_L 4
+#define EXP_L 1
+#define NAV_L 2
+#define NUM_L 3
+#define SYM_L 4
+#define ARROW_L 5
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
@@ -70,7 +71,7 @@
 
 //╭────────────┬──────────┬──────────┬──────────┬─────────────┬─────────────┬────────────────┬────────────────┬────────────┬──────────┬─────────────┬───────────────────╮
 //│  Escape    │ Q        │  W       │ E        │  R          │       T     │       Y        │        U       │    I       │     O    │      P      │   Backspace       │
-     &kp ESC       &kp Q      &kp Q      &kp E       &kp R          &kp T          &kp Y            &kp U          &kp I       &kp O      &kp P         &kp BKSP
+     &kp ESC       &kp Q      &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &kp I       &kp O      &kp P         &kp BKSP
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
 //│Tab/num_laye│  A       │  S       │ D        │  F          │       G     │       H        │        J       │    K       │     L    │      ;/:    │       ''/""       │
  &lt NUM_L TAB    &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp SEMI      &kp QUOT
