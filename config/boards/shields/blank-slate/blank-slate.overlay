@@ -53,14 +53,14 @@
 
         // Pines de columnas (entradas) - INVERTIDOS
         col-gpios = <
-            &gpio0 28 GPIO_ACTIVE_HIGH  // C0: P0.28
-            &gpio0 27 GPIO_ACTIVE_HIGH  // C1: P0.27
-            &gpio0 26 GPIO_ACTIVE_HIGH  // C2: P0.26
-            &gpio0 25 GPIO_ACTIVE_HIGH  // C3: P0.25
-            &gpio0 23 GPIO_ACTIVE_HIGH  // C4: P0.23
+            &gpio0 8 GPIO_ACTIVE_HIGH  // C0: P0.08
+            &gpio1 13 GPIO_ACTIVE_HIGH  // C1: P1.13
+            &gpio1 6 GPIO_ACTIVE_HIGH  // C2: P1.06
+            &gpio1 4 GPIO_ACTIVE_HIGH  // C3: P1.04
+            &gpio0 11 GPIO_ACTIVE_HIGH  // C4: P0.11
             &gpio0 22 GPIO_ACTIVE_HIGH  // C5: P0.22
-            &gpio0 21 GPIO_ACTIVE_HIGH  // C6: P0.21
-            &gpio0 10  GPIO_ACTIVE_HIGH  // C7: P1.09
+            &gpio0 9 GPIO_ACTIVE_HIGH  // C6: P0.09
+            &gpio0 10  GPIO_ACTIVE_HIGH  // C7: P0.10
             &gpio1 11 GPIO_ACTIVE_HIGH  // C8: P1.11
             &gpio1 15 GPIO_ACTIVE_HIGH  // C9: P1.15
             &gpio0 2  GPIO_ACTIVE_HIGH  // C10: P0.02
