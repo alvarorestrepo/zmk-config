@@ -79,7 +79,7 @@
    &kp LSHFT      &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M         &kp COMMA    &kp DOT    &kp FSLH      &mt RSHIFT MINUS
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
 //│   CTRL     │  L_SYM   │  ALT     │ Cmd      │  L_NAV      │   Enter     │      N/A       │ L_ARROW/SPACE  │    LEFT    │     UP   │    DOWN     │   RIGHT           │
-   &kp LCTRL    &mo SYM_L   &kp LALT   &kp LGUI     &kp B        &kp RET           &none       &lt ARROW_L SPACE   &kp LEFT    &kp UP     &kp DOWN      &kp RIGHT
+   &kp LCTRL    &mo SYM_L   &kp LALT   &kp LGUI   &mo NAV_L      &kp RET           &none       &lt ARROW_L SPACE   &kp LEFT    &kp UP     &kp DOWN      &kp RIGHT
 //╰────────────┴──────────┴──────────┴──────────┴─────────────┴─────────────┴────────────────┴────────────────┴────────────┴──────────┴─────────────┴───────────────────╯
             >;
         };
