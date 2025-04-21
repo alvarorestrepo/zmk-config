@@ -10,9 +10,10 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-// Layout options
-// #define TBLE_MIT     1
-// #define TBLE_DUAL_2U 1
+// Layout options (using values > 10 to avoid conflictos con layer indices)
+#define TBLE_ORTHO   100
+// #define TBLE_MIT     101
+// #define TBLE_DUAL_2U 102
 
 // Layer definitions (starting from 0)
 #define BASE_L 0
@@ -69,7 +70,7 @@
 
 //╭────────────┬──────────┬──────────┬──────────┬─────────────┬─────────────┬────────────────┬────────────────┬────────────┬──────────┬─────────────┬───────────────────╮
 //│  Escape    │ Q        │  W       │ E        │  R          │       T     │       Y        │        U       │    I       │     O    │      P      │   Backspace       │
-     &kp ESC       &kp Q      &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &kp I       &kp O      &kp P         &kp BKSP
+     &kp ESC       &kp Q      &kp Q      &kp E       &kp R          &kp T          &kp Y            &kp U          &kp I       &kp O      &kp P         &kp BKSP
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
 //│Tab/num_laye│  A       │  S       │ D        │  F          │       G     │       H        │        J       │    K       │     L    │      ;/:    │       ''/""       │
  &lt NUM_L TAB    &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp SEMI      &kp QUOT
