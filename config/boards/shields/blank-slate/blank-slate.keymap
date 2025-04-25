@@ -133,8 +133,8 @@
 //│  CLEAR BT  │    BT 1  │   BT 2   │   BT 3   │    BT 4     │     BT 5    │                │                │            │          │studio_unlock│    Bootloader     │
     &bt BT_CLR   &bt BT(0)  &bt BT(1)  &bt BT(2)   &bt BT(3)     &bt BT(4)       &trans            &trans        &trans       &trans   &studio_unlock    &bootloader
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
-//│    BATT    │   F1     │  F2      │  F3      │  F4         │             │                │                │            │          │             │                   │
-    &bt BT_BATT    &kp F1     &kp F2     &kp F3      &kp F4        &trans        &trans             &trans        &trans       &trans       &trans        &trans
+//│            │   F1     │  F2      │  F3      │  F4         │             │                │                │            │          │             │                   │
+      &trans      &kp F1     &kp F2     &kp F3      &kp F4        &trans        &trans             &trans        &trans       &trans       &trans        &trans
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
 //│            │  F5      │  F6      │  F7      │  F8         │             │                │                │            │          │             │                   │
       &trans      &kp F5     &kp F6     &kp F7      &kp F8        &trans         &trans           &trans          &trans     &trans       &trans         &trans
